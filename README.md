@@ -20,7 +20,7 @@ A full-featured **room & property listing platform** inspired by Airbnb — buil
 
 | Home Page | Listing Page | Review Section |
 |-----------|--------------|----------------|
-| ![Home](./public/images/) | ![Listing](./public/images/screenshot-listing.png) | ![Review](./public/images/screenshot-review.png) |
+| ![Home](./public/images/home.png) | ![Listing](./public/images/screenshot-listing.png) | ![Review](./public/images/screenshot-review.png) |
 
 ---
 

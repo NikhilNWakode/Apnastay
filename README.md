@@ -18,10 +18,9 @@ A full-featured **room & property listing platform** inspired by Airbnb — buil
 
 ## 🖼️ UI Screenshots 
 
-
-| ![Home](./public/images/home.png) 
-| ![Listing](./public/images/signup.png) 
-| ![Review](./public/images/show.png) |
+ ![Home](./public/images/home.png) 
+ ![Listing](./public/images/signup.png) 
+ ![Review](./public/images/show.png) 
 
 ---
 
@@ -37,6 +36,32 @@ A full-featured **room & property listing platform** inspired by Airbnb — buil
 | `Cloudinary` | Image Hosting |
 | `Multer` | File Uploads |
 | `Bootstrap 5` | UI Components |
+
+---
+
+## 📂 Project Structure
+
+ApnaStay/
+├── models/ # Mongoose schemas
+├── controllers/ # Route logic
+├── routes/ # Express route handlers
+├── views/ # EJS templates
+├── public/ # Static assets (CSS, JS, images)
+├── cloudinary/ # Cloudinary config
+├── utils/ # Custom middleware & errors
+├── app.js # Main server file
+├── .env # Env variables
+└── README.md # You're reading it :)
+
+---
+
+##🔐 Environment Variables
+
+MONGO_URL=your_mongo_db_uri
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_KEY=your_cloudinary_key
+CLOUDINARY_SECRET=your_cloudinary_secret
+SECRET=your_secure_session_key
 
 ---
 

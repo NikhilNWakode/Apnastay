@@ -1,6 +1,6 @@
 # 🧭 ApnaStay
 
-A full-featured **room & property listing platform** inspired by Airbnb — built using **Node.js, Express, MongoDB, EJS**, and **Cloudinary**. Users can sign up, log in, create, browse, and filter listings, as well as leave reviews.
+A full-featured **room & property listing platform** inspired by Airbnb — built using **Node.js, Express, MongoDB, EJS**, and **Cloudinary**. Users can sign up, log in, create, browse, as well as leave reviews.
 
 ---
 
@@ -10,8 +10,9 @@ A full-featured **room & property listing platform** inspired by Airbnb — buil
 - 🏘️ **Add/Edit/Delete Listings**
 - ⭐ **Review System with Ratings**
 - ☁️ **Cloudinary Image Uploads**
-- 📦 **Flash Messages & Validation**
+- 📦 **Flash Messages**
 - 💬 Clean & Modern UI (Bootstrap 5)
+- ⚙️ Client-side & Server-side Validations (Joi)
 - 🛠️ MVC Folder Structure
 
 ---

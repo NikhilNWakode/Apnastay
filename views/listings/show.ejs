@@ -16,7 +16,7 @@
         <h4 class="card-title mb-3"><strong><%= listing.title %></strong></h4>
         <img
           loading="lazy"
-          src="<%= listing.image.url %>"
+          src="<%= listing.image.url.replace('/upload', '/upload/w_600,c_fill,f_auto,q_auto') %>"
           class="show-card-img-top rounded-top-4"
           alt="<%= listing.title %>"
         />

@@ -42,27 +42,27 @@ A full-featured **room & property listing platform** inspired by Airbnb — buil
 ## 📂 Project Structure
 
 ApnaStay/
-├── app.js                # Main Express server file
-├── .env                  # Environment variables
-├── README.md             # Project documentation
-│
-├── models/               # Mongoose schemas (Listing, User, Review)
-├── controllers/          # Route logic (listings.js, users.js, reviews.js)
-├── routes/               # Express route handlers
-├── views/                # EJS templates (layouts, includes, users, listings)
-│
-├── public/               # Static assets
-│   ├── css/              # Custom styles
-│   ├── js/               # Client-side scripts
-│   └── images/           # App images (logo, login/signup images, etc.)
-│
-├── cloudinary/           # Cloudinary storage config (index.js)
-├── utils/                # Custom middleware (wrapAsync, ExpressError, etc.)
+├── app.js                # Main Express server file  
+├── .env                  # Environment variables  
+├── README.md             # Project documentation  
+│  
+├── models/               # Mongoose schemas (Listing, User, Review)  
+├── controllers/          # Route logic (listings.js, users.js, reviews.js)  
+├── routes/               # Express route handlers  
+├── views/                # EJS templates (layouts, includes, users, listings)  
+│  
+├── public/               # Static assets  
+│   ├── css/              # Custom styles  
+│   ├── js/               # Client-side scripts  
+│   └── images/           # App images (logo, login/signup images, etc.)  
+│  
+├── cloudinary/           # Cloudinary storage config (index.js)  
+├── utils/                # Custom middleware (wrapAsync, ExpressError, etc.)  
 
 
 ---
 
-##🔐 Environment Variables
+## 🔐 Environment Variables
 
 - MONGO_URL=your_mongo_db_uri   
 - CLOUDINARY_CLOUD_NAME=your_cloud_name

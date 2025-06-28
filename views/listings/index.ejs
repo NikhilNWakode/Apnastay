@@ -12,7 +12,7 @@
         <img
           loading="lazy"
           style="height: 12rem;"
-          src="<%= listing.image.url %>"
+          src="<%= listing.image.url.replace('/upload', '/upload/w_600,c_fill,f_auto,q_auto') %>"
           class="card-img-top"
           alt="<%= listing.title %>"
         />

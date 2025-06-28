@@ -8,7 +8,6 @@ A full-featured **room & property listing platform** inspired by Airbnb — buil
 
 - 🔐 **User Authentication** (Passport Local)
 - 🏘️ **Add/Edit/Delete Listings**
-- 🌍 **Filter by Price & Location**
 - ⭐ **Review System with Ratings**
 - ☁️ **Cloudinary Image Uploads**
 - 📦 **Flash Messages & Validation**
@@ -21,7 +20,7 @@ A full-featured **room & property listing platform** inspired by Airbnb — buil
 
 | Home Page | Listing Page | Review Section |
 |-----------|--------------|----------------|
-| ![Home](./public/images/screenshot-home.png) | ![Listing](./public/images/screenshot-listing.png) | ![Review](./public/images/screenshot-review.png) |
+| ![Home](./public/images/) | ![Listing](./public/images/screenshot-listing.png) | ![Review](./public/images/screenshot-review.png) |
 
 ---
 
@@ -46,12 +45,3 @@ A full-featured **room & property listing platform** inspired by Airbnb — buil
 git clone https://github.com/NikhilNWakode/Apnastay.git
 cd Apnastay
 npm install
----```
-
-## 🔐 Environment Variables
-MONGO_URL=your_mongo_db_uri
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_KEY=your_cloudinary_key
-CLOUDINARY_SECRET=your_cloudinary_secret
-SESSION_SECRET=your_secure_session_key
-

@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top border-bottom py-2">
+  <div class="container-fluid px-4">
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center gap-2 fw-bold fs-5 text-dark" href="/">
+      <i class="fa-regular fa-compass" style="color: #fe424d;"></i>
+      ApnaStay
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Left Links -->
+      <ul class="navbar-nav me-auto gap-2">
+        <li class="nav-item">
+          <a class="nav-link fw-medium text-dark" href="/listings">
+            <i class="bi bi-house-door me-1"></i>All Listings
+          </a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link fw-medium text-dark" href="/listings/new">
+            <i class="bi bi-plus-circle me-1"></i>Add New Listing
+          </a>
+        </li>
+     
+      </ul>
+
+      <!-- Right Side Auth -->
+      <div class="d-flex align-items-center gap-2">
+        <% if (!currentUser) { %>
+          <a href="/signup" class="btn btn-outline-dark rounded-pill px-3 py-1">Sign Up</a>
+          <a href="/login" class="btn btn-dark rounded-pill px-3 py-1">Login</a>
+        <% } else { %>
+          <span class="text-dark fw-semibold">Hi, <%= currentUser.username %></span>
+          <a href="/logout" class="btn btn-outline-secondary rounded-pill px-3 py-1">Logout</a>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</nav>

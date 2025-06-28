@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+     font-family: "Merriweather", serif !important;
+}
+
+.red{
+    color: #fe424d !important;
+}
+
+.navbar {
+    min-height: 5rem !important;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eee;
+}
+
+.fa-regular{
+    font-size: 2rem;
+}
+
+.nav-link {
+    color:#222222 !important; 
+}
+
+.footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.listing-title{
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+    margin-top: 2rem !important;
+}
+
+.margin-top-2{
+    margin-top: 2rem !important;
+}
+
+/* Cards */
+.card {
+  border: none !important;
+  margin-bottom: 2rem !important;
+  border-radius: 0.5rem !important;
+  box-shadow: none !important;
+  border: none !important;
+  
+}
+.card-1 {
+  border: none !important;
+  margin-bottom: 2rem !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card-1:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-img-top {
+    object-fit: cover;
+    width: 100% !important;
+    border-top-left-radius: 0.75rem !important;
+    border-top-right-radius: 0.75rem !important;
+
+}
+
+
+
+.card-body {
+    padding: 0.5rem  !important;
+}
+
+.card-text {
+    font : 400;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* New-Listing-Form */
+
+.listing-form-title{
+    margin-top: 2rem !important;
+   
+}
+
+.add-btn{
+    background-color:#fe424d !important;
+    color: white !important;
+    border: none !important;
+}
+.add-btn:hover{
+    background-color: #e03e45 !important;
+}
+
+/* Show-listings */
+.back-btn {
+  font-size: 0.9rem;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #f8f9fa;
+  color: #000;
+  text-decoration: none;
+  border-color: #999;
+}
+
+.show-card-img-top {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* or use 4 / 3 if you prefer */
+    object-fit: cover;
+    border-radius: 0.75rem;
+    display: block;
+}
+
+
+.card-title {
+  font-weight: 600;
+  padding-left: 0.5rem !important;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+button.btn {
+  border-radius: 10px;
+}
+
+.form-range {
+    outline: none !important;
+    border: none !important;
+}
+.form-range:focus {
+    box-shadow: none !important;
+}
+
+.review-section {
+    margin-top: 4rem !important;
+}
